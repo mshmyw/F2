@@ -66,10 +66,7 @@
     "prettier": "prettier --write './packages/**/*.{ts,tsx}'"
   },
   "pre-commit": {
-    "run": [
-      "lint",
-      "test"
-    ],
+    "run": [],
     "silent": false
   },
   "resolutions": {

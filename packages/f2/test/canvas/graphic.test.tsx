@@ -10,7 +10,7 @@ function View() {
           x: '10px',
           y: '10px',
           width: '80px',
-          height: '80px',
+          height: '100px',
           fill: 'red',
         }}
       />

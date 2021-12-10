@@ -50,3 +50,10 @@ jobs:
           npm run test
         env:
           CI: true
+
+      - name: save diff snapshot
+        uses: actions/upload-artifact@v2
+        with:
+          name: diff snapshot
+          path: |
+            **/__image_snapshots__/__diff_output__/*.png
